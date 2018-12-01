@@ -1,4 +1,4 @@
-#Kotlin classes and Inheritance (클래스와 상속)
+# Kotlin classes and Inheritance (클래스와 상속)
 
 -클래스
 클래스는 class 키워드로 선언함
@@ -111,7 +111,7 @@ class DontCreateMe private constructor(){
 }
 ```
 
-####인스턴스 생성
+#### 인스턴스 생성
 + 코틀린은 new 키워드가 없음
 + 객체를 생성하려면 생성자를 일반 함수처럼 호출 하면 됨
 ```
@@ -120,7 +120,7 @@ val invoice = Invoice()
 val customer = Customer("Joe Smith")
 ```
 
-####클래스가 포함할 수 있는 것들
+#### 클래스가 포함할 수 있는 것들
 + Constructors and initializer blocks
 + Functions
 + Properties
